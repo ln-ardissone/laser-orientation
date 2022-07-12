@@ -15,6 +15,7 @@ filter()
 class()
 
 round(3.14)
+
 #' In the space below, use the round() function to 
 #' round 3.14 to the nearest whole number.
 #' Run your code to see the result. 
@@ -41,6 +42,10 @@ round(3.14)
 
 
 round(3.14, digits = 1)
+
+#fun fact/user beware...the round function in R defaults to the nearest EVEN number if ending in X.5
+round(3.5) #4
+round(2.5) #2...did you want 3?
 
 #######################
 ### c. Objects ########
